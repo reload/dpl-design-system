@@ -274,14 +274,10 @@
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 120%;
+  line-height: 200%;
   letter-spacing: 0.02em;
   text-align: left;
   text-transform: uppercase;
-
-  @include breakpoint-s {
-    line-height: 120%;
-  }
 
   @include breakpoint-xl {
     font-size: 14px;
