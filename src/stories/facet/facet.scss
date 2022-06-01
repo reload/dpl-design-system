@@ -1,0 +1,21 @@
+.facet {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 12px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 12px;
+  background-color: $c-global-secondary;
+
+  @include breakpoint-s {
+    padding-left: 24px;
+  }
+
+  &__close-svg {
+    // Should be 8px but there is padding in svg
+    height: 10px;
+    width: 10px;
+  }
+}
