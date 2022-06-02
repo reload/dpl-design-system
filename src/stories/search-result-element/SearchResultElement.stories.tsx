@@ -10,7 +10,7 @@ export default {
     design: {
       type: "figma",
       url:
-        "https://www.figma.com/file/ETOZIfmgGS1HUfio57SOh7/S%C3%B8gning?node-id=4557%3A15899",
+        "https://www.figma.com/file/ETOZIfmgGS1HUfio57SOh7/S%C3%B8gning?node-id=4517%3A16671",
     },
   },
   argTypes: {
