@@ -52,6 +52,9 @@
 
 .search-result-item-one-row__reserve {
   @include breakpoint-s {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-left: 158px;
     justify-self: end;
     align-self: center;
@@ -63,5 +66,10 @@
     @include breakpoint-s {
       margin-top: 0;
     }
+  }
+  &__find {
+    margin-top: 12px;
+    font-size: 12px;
+    text-align: center;
   }
 }

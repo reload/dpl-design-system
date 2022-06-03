@@ -47,7 +47,9 @@ export const SearchResultItemOneRow = ({
           size="small"
           variant="filled"
         />
-        <p>Find på hylden</p>
+        <span className="link-tag search-result-item-one-row__reserve__find">
+          Find på hylden
+        </span>
       </div>
     </div>
   );
