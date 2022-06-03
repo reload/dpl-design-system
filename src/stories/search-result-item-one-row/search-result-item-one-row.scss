@@ -3,6 +3,7 @@
   padding: 24px;
   padding-top: 30px;
   display: grid;
+  cursor: pointer;
 
   @include breakpoint-s {
     height: 184px;
