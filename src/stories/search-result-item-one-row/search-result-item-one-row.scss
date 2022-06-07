@@ -36,17 +36,27 @@
   @include breakpoint-s {
     grid-column: 2/3;
   }
-}
+  &__title {
+    margin-top: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px;
 
-.search-result-item-one-row__title {
-  margin-top: 22px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 250px;
-  @include breakpoint-s {
-    margin-top: 16px;
-    max-width: 100%;
+    @include breakpoint-s {
+      margin-top: 16px;
+      max-width: 100%;
+    }
+  }
+  &__details {
+    margin-top: 19px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+
+    img {
+      width: 16px;
+    }
   }
 }
 
@@ -69,7 +79,7 @@
   }
   &__find {
     margin-top: 12px;
-    font-size: 12px;
+
     text-align: center;
   }
 }

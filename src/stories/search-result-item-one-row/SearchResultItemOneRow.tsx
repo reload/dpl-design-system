@@ -32,10 +32,14 @@ export const SearchResultItemOneRow = ({
       </div>
 
       <div className="search-result-item-one-row__text">
-        <h2 className="search-result-item-one-row__title text-header-h4">
+        <h2 className="search-result-item-one-row__text__title text-header-h4">
           {title}
         </h2>
         <p className="text-small-caption">{`Af ${author} (${year})`}</p>
+        <div className="search-result-item-one-row__text__details">
+          <p className="link-tag text-small-caption">Detaljer om materialet </p>
+          <img src="icons/collection/ExpandMore.svg" alt="ExpandMore" />
+        </div>
       </div>
 
       <div className="search-result-item-one-row__reserve">
@@ -47,7 +51,7 @@ export const SearchResultItemOneRow = ({
           size="small"
           variant="filled"
         />
-        <span className="link-tag search-result-item-one-row__reserve__find">
+        <span className="link-tag text-small-caption search-result-item-one-row__reserve__find">
           Find på hylden
         </span>
       </div>
