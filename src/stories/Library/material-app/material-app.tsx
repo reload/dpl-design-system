@@ -1,5 +1,3 @@
-import React from "react";
-
 import MaterialHeader from "../material-header/material-header";
 
 export interface MaterialAppProps {

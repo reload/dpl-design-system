@@ -1,4 +1,3 @@
-import React from "react";
 import { AvailabilityLabel } from "../availability-label/AvailabilityLabel";
 import { ButtonFavourite } from "../Buttons/button-favourite/ButtonFavourite";
 import { Button } from "../Buttons/button/Button";
@@ -26,7 +25,7 @@ const MaterialHeader: React.FC<MaterialHeaderProps> = ({
           url="images/book_cover_3.jpg"
           size="large"
           tint="120"
-          animate={true}
+          animate
         />
       </div>
       <div className="material-header__content">
