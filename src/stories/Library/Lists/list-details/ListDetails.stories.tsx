@@ -51,6 +51,10 @@ ItemDropdown.args = {
         href: "",
         title: "Default state",
       },
+      {
+        href: "",
+        title: "Some other state",
+      },
     ],
   },
 };
