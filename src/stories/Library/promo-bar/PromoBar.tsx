@@ -18,8 +18,8 @@ const PromoBar: React.FunctionComponent<PromoBarProps> = ({
   return (
     <section
       className={clsx("promo-bar px-35", {
-        "promo-bar--stick-list-item": stickToListItem,
-        "promo-bar--dark-theme": theme === "dark",
+        "promo-bar--sticky": stickToListItem,
+        "promo-bar--dark": theme === "dark",
       })}
     >
       {type && <PromoBarIcon type={type} />}

@@ -40,6 +40,7 @@ export default {
     showPromoBar: {
       name: "Show PromoBar",
       defaultValue: false,
+      control: { type: "boolean" },
     },
   },
 } as ComponentMeta<typeof Reservation>;
