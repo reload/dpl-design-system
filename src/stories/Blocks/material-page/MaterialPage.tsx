@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import Disclosure from "../../Library/disclosure/Disclosure";
 import { generateId } from "../../Library/horizontal-term-line/HorizontalTermLine";
 import ListDescription, {
@@ -15,6 +16,7 @@ export interface MaterialPageProps {
   periodical?: boolean;
   ctaText?: string;
   description?: string;
+  kidsUniverse?: boolean;
 }
 
 const MaterialPage: React.FC<MaterialPageProps> = ({
@@ -23,10 +25,15 @@ const MaterialPage: React.FC<MaterialPageProps> = ({
   periodical,
   ctaText,
   description,
+  kidsUniverse,
 }) => {
   const amountOfRenders = [1, 2];
+  const className = clsx("material-page", {
+    "material-page--kids-universe": kidsUniverse,
+  });
+
   return (
-    <div className="material-page">
+    <div className={className}>
       <MaterialHeader
         title={title}
         author={author}

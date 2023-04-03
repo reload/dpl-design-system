@@ -1,0 +1,35 @@
+.material-page {
+  &--kids-universe {
+    background-color: #b5b4cc;
+
+    .material-header {
+      border-bottom: unset;
+      min-height: unset;
+
+      &__cover {
+        place-content: start center;
+        grid-row: 1/2;
+        grid-column: 1/2;
+      }
+
+      &__content {
+        grid-row: 1/2;
+        grid-column: 2/2;
+        padding: unset;
+      }
+      &__availability-label {
+        display: none;
+      }
+    }
+
+    .button-favourite {
+      display: none;
+    }
+
+    .material-description {
+      @include breakpoint-m {
+        padding-left: $s-6xl;
+      }
+    }
+  }
+}

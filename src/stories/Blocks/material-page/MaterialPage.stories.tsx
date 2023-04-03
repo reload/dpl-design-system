@@ -29,6 +29,9 @@ export default {
     description: {
       control: { type: "text" },
     },
+    kidsUniverse: {
+      control: { type: "boolean" },
+    },
   },
 } as ComponentMeta<typeof MaterialPage>;
 
